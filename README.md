@@ -12,4 +12,4 @@ Note that the shield uses the old style wiring, so the ISP code must be modified
 ![shield-on](https://github.com/vladiordachescu/attiny25-45-85-isp-shield/assets/73362552/7ae46bbf-8211-4899-a41a-81bef70b6808)
 
 The shield pins must match the header pins of the Arduino Uno. The ATtiny chip must be inserted with the notch/dot side up.<br /><br />
-The 10uF capacitor on the shield prevents the Arduino Uno's microcontroller from resetting during the programming of the ATtiny microcontroller.
+The 10uF capacitor on the shield prevents the ATmega microcontroller on the Uno from resetting during the programming of the ATtiny microcontroller.
